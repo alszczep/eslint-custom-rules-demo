@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.json"] },
+  "plugins": ["@typescript-eslint", "eslint-plugin-local-rules"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": 0,
+    "local-rules/react-component-props-structure": 2
+  },
+  "ignorePatterns": ["eslint-local-rules.js"]
+}

@@ -1,1 +1,3 @@
-# eslint-custom-rules-demo
+https://astexplorer.net/
+
+https://eslint.org/docs/latest/extend/custom-rules
